@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "521440653786",
+    "project_id": "chat-app-c0c92",
+    "storage_bucket": "chat-app-c0c92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521440653786:android:9a246fa25f69b8d17210e3",
+        "android_client_info": {
+          "package_name": "com.danish.chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521440653786-sd9po3mr3drb16o8kttlnv2fcohkdeu2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD59zxX1SYdHxPdtKWt8qrTihEDOny7XgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521440653786-sd9po3mr3drb16o8kttlnv2fcohkdeu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
