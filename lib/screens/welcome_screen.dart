@@ -1,6 +1,10 @@
+import 'package:chat_app/screens/login_screen.dart';
+import 'package:chat_app/screens/registration_screen.dart';
 import 'package:flutter/material.dart';
 
 class WelcomeScreen extends StatefulWidget {
+  static const String id = "WELCOME_SCREEN";
+
   const WelcomeScreen({Key? key}) : super(key: key);
 
   @override
@@ -13,21 +17,29 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Padding(
-        padding: const EdgeInsets.symmetric( horizontal: 8.0),
+        padding: const EdgeInsets.symmetric(horizontal: 8.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Row(
-              children: [
-                SizedBox(
-                  height: 60,
-                  child: Image.asset('Images/logo.png'),
-                ),
-                Text('Flash Chat', style: TextStyle(fontSize: 45, fontWeight: FontWeight.w900, color: Colors.black),)
-              ],
+            Center(
+              child: Row(
+                children: [
+                  SizedBox(
+                    height: 60,
+                    child: Image.asset('Images/logo.png'),
+                  ),
+                  const Text(
+                    'Flash Chat',
+                    style: TextStyle(
+                        fontSize: 45,
+                        fontWeight: FontWeight.w900,
+                        color: Colors.black),
+                  )
+                ],
+              ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 48,
             ),
             Padding(
@@ -36,12 +48,17 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                 color: Colors.lightBlueAccent,
                 borderRadius: BorderRadius.circular(32),
                 child: MaterialButton(
-                  onPressed: (){
+                  onPressed: () {
                     // to login screen
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => LoginScreen()));
                   },
                   minWidth: 200.0,
                   height: 42,
-                  child: Text('Log in', style: TextStyle(color: Colors.white),),
+                  child: const Text(
+                    "Log in",
+                    style: TextStyle(color: Colors.white),
+                  ),
                 ),
               ),
             ),
@@ -51,12 +68,16 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                 color: Colors.blueAccent,
                 borderRadius: BorderRadius.circular(32),
                 child: MaterialButton(
-                  onPressed: (){
+                  onPressed: () {
                     // to login screen
+                    Navigator.pushNamed(context, RegistrationScreen.id);
                   },
                   minWidth: 200.0,
                   height: 42,
-                  child: const Text('Register', style: TextStyle(color: Colors.white),),
+                  child: const Text(
+                    'Register',
+                    style: TextStyle(color: Colors.white),
+                  ),
                 ),
               ),
             ),

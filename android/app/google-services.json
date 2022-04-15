@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "61957604878",
+    "project_id": "chat-app-85588",
+    "storage_bucket": "chat-app-85588.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61957604878:android:cc25dc8fdae9eb25111e5f",
+        "android_client_info": {
+          "package_name": "com.auliamnaufal.chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61957604878-nhvgb56bq79dd2gbes1bhl40l3rtnf7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuWh1-y_YqLqdEakO3ri7FjOykIvZQW18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61957604878-nhvgb56bq79dd2gbes1bhl40l3rtnf7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
