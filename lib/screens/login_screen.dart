@@ -43,11 +43,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   hintText: 'Enter Your Email',
                   hintStyle: TextStyle(color: Colors.grey, fontSize: 15),
                   contentPadding:
-<<<<<<< HEAD
                       EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
-=======
-                  EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
->>>>>>> 4e0824b43ebd6bd7a27c61193db5383f6a91d02c
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.all(Radius.circular(32.0)),
                   ),
@@ -74,11 +70,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   hintText: 'Enter Your Password',
                   hintStyle: TextStyle(color: Colors.grey, fontSize: 15),
                   contentPadding:
-<<<<<<< HEAD
                       EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
-=======
-                  EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
->>>>>>> 4e0824b43ebd6bd7a27c61193db5383f6a91d02c
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.all(Radius.circular(32.0)),
                   ),

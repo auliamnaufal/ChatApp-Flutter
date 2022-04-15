@@ -18,7 +18,6 @@ class FlashChat extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-<<<<<<< HEAD
         primarySwatch: Colors.blue,
       ),
       initialRoute: WelcomeScreen.id,
@@ -28,19 +27,6 @@ class FlashChat extends StatelessWidget {
         LoginScreen.id: (context) => const LoginScreen(),
         ChatScreen.id: (context) => const ChatScreen()
       },
-=======
-        primarySwatch: Colors.blue
-        ),
-       initialRoute: WelcomeScreen.id,
-       routes: {
-        WelcomeScreen.id: (context) => const WelcomeScreen(),
-         RegistrationScreen.id: (context) => const RegistrationScreen(),
-         LoginScreen.id: (context) => const LoginScreen(),
-         ChatScreen.id: (context) => const ChatScreen(),
-       },
-       home: const WelcomeScreen(),
-
->>>>>>> 4e0824b43ebd6bd7a27c61193db5383f6a91d02c
     );
   }
 }
